@@ -1,10 +1,24 @@
+@font-face {
+  font-family: "BebasNeue";
+  src: url("../Fonts/BebasNeue-Regular.ttf");
+}
+
+.marca {
+  font-family: "BebasNeue", sans-serif;
+}
+
 .miPortada{
     width: 100%;
-    height: 60vh;
+    height: 90vh;
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)),
     url('../assets/portada.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color: white;
+}
+
+.card:hover{
+    background-color: black;
+    cursor: pointer;
 }

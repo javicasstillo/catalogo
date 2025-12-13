@@ -5,36 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catalogo</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
     <header class="bg-black">
         <nav class="container py-3">
-            <div class="d-flex align-items-center">
-                <h1 class="mb-0">LOGO</h1>
-                <ul class="d-flex gap-3 list-unstyled ms-auto mb-0 ">
-                    <a href="#" class="text-decoration-none text-white"><li>Catalogo</li></a>
-                    <a href="#" class="text-decoration-none text-white"><li>¿Quienes somos?</li></a>
-                </ul>
+            <div class="d-flex justify-content-center">
+                <h1 class="mb-0 marca"> - LOGO -</h1>
             </div>
         </nav>
     </header>
 
     <main>
-        <section id="portada">
+        <section> <!--PORTADA-->
             <div class="miPortada d-flex flex-column align-items-center justify-content-center">
-                <h3>TEXTO BREVE DE INTRODUCCION</h3>
+                <h3 class="marca fs-1">- TEXTO BREVE DE INTRODUCCION -</h3>
                 <p>(Imagen de fondo)</p>
             </div>
         </section>
+
+        
+
+        <section data-aos="fade-up" id="catalogo"  class="d-flex min-vh-100 d-flex align-items-center"> <!--CATALOGO-->
+            <div class="container">
+                <h2 class="container text-center marca fs-1">Catalogo</h2>
+                <div class="container mt-5 row justify-content-center gap-3 ">
+                    <div class="card col-6 col-md-4 col-lg-3 align-items-center">
+                        <a href="./pages/modeloA.html" class="text-decoration-none text-center text-white marca">
+                            <h3 class=" pt-3 mb-0 marca">Modelo A</h3>
+                            <img src="./assets/moto menu.png" alt="imagen ilustrativa" class="mt-0 w-50">
+                        </a>
+                    </div>
+                    <div class="card col-6 col-md-4 col-lg-3 align-items-center">
+                        <a href="./pages/modeloB.html" class="text-decoration-none text-center text-white marca">
+                            <h3 class=" pt-3 mb-0 marca">Modelo B</h3>
+                            <img src="./assets/moto menu.png" alt="imagen ilustrativa" class="mt-0 w-50">
+                        </a>
+                    </div>
+                    <div class="card col-6 col-md-4 col-lg-3 align-items-center">
+                        <a href="./pages/modeloC.html" class="text-decoration-none text-center text-white marca">
+                            <h3 class=" pt-3 mb-0 marca">Modelo C</h3>
+                            <img src="./assets/moto menu.png" alt="imagen ilustrativa" class="mt-0 w-50">
+                        </a>
+                    </div>
+                    <div class="card col-6 col-md-4 col-lg-3 align-items-center">
+                        <a href="./pages/modeloD.html" class="text-decoration-none text-center text-white marca">
+                            <h3 class=" pt-3 mb-0 marca">Modelo D</h3>
+                            <img src="./assets/moto menu.png" alt="imagen ilustrativa" class="mt-0 w-50">
+                        </a>
+                    </div>
+                    <div class="card col-6 col-md-4 col-lg-3 align-items-center">
+                        <a href="./pages/modeloE.html" class="text-decoration-none text-center text-white marca">
+                            <h3 class=" pt-3 mb-0 marca">Modelo E</h3>
+                            <img src="./assets/moto menu.png" alt="imagen ilustrativa" class="mt-0 w-50">
+                        </a>
+                    </div>
+                    <div class="card col-6 col-md-4 col-lg-3 align-items-center">
+                       <a href="./pages/modeloF.html" class="text-decoration-none text-center text-white marca">
+                            <h3 class=" pt-3 mb-0 marca">Modelo F</h3>
+                            <img src="./assets/moto menu.png" alt="imagen ilustrativa" class="mt-0 w-50">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+
+        </section>
+
     </main>
     
-    <footer class="text-center py-3">
-        <p>&copy; Todos los derechos reservados.</p>
+    <footer  class="bg-black text-center py-3">
+        <p class="mb-0">&copy; Todos los derechos reservados.</p>
     </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    // Inicializa AOS después de que se haya cargado la librería
+    AOS.init({
+        duration: 1200, // Duración de la animación en milisegundos
+        once: true, // Animación solo se ejecuta una vez al hacer scroll
+    });
+</script>
 </body>
 </html>
