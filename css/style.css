@@ -18,6 +18,10 @@
     color: white;
 }
 
+.catalogo{
+    min-height: 90vh;
+}
+
 .card:hover{
     background-color: black;
     cursor: pointer;
