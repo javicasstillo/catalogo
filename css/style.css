@@ -50,7 +50,7 @@
 }
 
 .carousel-item img {
-    min-height: 600px;
+    min-height: 400px;
     max-height: 800px;
     object-fit: contain;
 }
