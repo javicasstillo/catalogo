@@ -12,9 +12,6 @@
     height: 100px;
 }
 
-.catalogo{
-    min-height: 90vh;
-}
 
 .card:hover{
     background-color: black;
