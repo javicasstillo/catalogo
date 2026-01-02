@@ -12,6 +12,11 @@
     height: 100px;
 }
 
+#catalogo {
+        min-height: 90vh;
+        display: flex;
+        align-items: center;
+    }
 
 .card:hover{
     background-color: black;
