@@ -48,3 +48,11 @@
     filter: invert(1);
 }
 
+@media (min-width: 768px) {
+    .catalogo {
+        min-height: 90vh;
+        display: flex;
+        align-items: center;
+    }
+}
+
