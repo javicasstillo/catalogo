@@ -3,13 +3,13 @@ import fs from "node:fs";
 import sharp from "sharp";
 
 
-const TARGET = path.resolve(import.meta.dirname, './assets/Fotos/Fotos página web');
+const TARGET = path.resolve(import.meta.dirname, './assets/Fotos/optimized');
 const OUTPUT = path.resolve(import.meta.dirname, './assets/Fotos/ultra-optimized');
 
 
 async function optimizeImages(opt = {}) {
     
-    const {folder, output, recursive, ext = ['.jpg', '.jpeg', '.png']} = opt;
+    const {folder, output, recursive, ext = ['.webp', '.webp', '.webp']} = opt;
 
     const files = await fs.promises.readdir(folder);
 
