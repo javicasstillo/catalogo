@@ -3,6 +3,20 @@
   src: url("../Fonts/BebasNeue-Regular.ttf");
 }
 
+.portada{
+    min-height: 100vh; /* ocupa toda la pantalla */
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("../assets/WhatsApp\ Image\ 2026-01-06\ at\ 11.24.41.jpeg");
+    
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .marca {
   font-family: "BebasNeue", sans-serif;
 }
