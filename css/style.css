@@ -17,6 +17,10 @@
   background-repeat: no-repeat;
 }
 
+.card{
+    background-color:rgba(0, 0, 0, 0.4) !important;
+}
+
 .marca {
   font-family: "BebasNeue", sans-serif;
 }
@@ -31,11 +35,6 @@
         display: flex;
         align-items: center;
     }
-
-.card:hover{
-    background-color: black;
-    cursor: pointer;
-}
 
 .accordion-button:not(.collapsed) {
     background-color: var(--bs-warning) !important;
